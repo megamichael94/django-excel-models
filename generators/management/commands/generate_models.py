@@ -19,6 +19,6 @@ class Command(BaseCommand):
         Function called once the command has been called.
         #todo: finish docstring and add to help
         """
-                
+
         self.stdout.write(
             self.style.SUCCESS('Successfully imported excel files'))
